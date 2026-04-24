@@ -89,13 +89,6 @@ idol-skill/
 - `IDOL_SKILL_API_KEY`
 - `IDOL_SKILL_BASE_URL`
 
-## 开源前检查清单
-
-- [ ] 不提交任何私有聊天记录、导出原文、账号信息
-- [ ] 不提交运行态状态文件和向量索引产物
-- [ ] 用 `examples/` 提供可公开演示数据
-- [ ] 确认 `LICENSE` 与依赖声明完整
-
 ## 许可证
 
 本仓库使用 `LICENSE` 中声明的许可协议。
