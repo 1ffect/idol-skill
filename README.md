@@ -5,6 +5,22 @@
 Agent Skill + CLI 工程：  
 把公开物料与用户主观记忆蒸馏为“高光时期的理想化偶像陪伴人格”。
 
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-F7C948?style=flat-square" alt="License: MIT" />
+  <img src="https://img.shields.io/badge/Python-3.9%2B-5AA9FF?style=flat-square" alt="Python 3.9+" />
+  <img src="https://img.shields.io/badge/Skill-AgentSkills-8B5CF6?style=flat-square" alt="AgentSkills Skill" />
+  <img src="https://img.shields.io/badge/Mode-Local--First-36CFC9?style=flat-square" alt="Local First" />
+</p>
+
+<p align="center">
+  <a href="#核心能力">数据来源</a> ·
+  <a href="#安装推荐">安装</a> ·
+  <a href="#本地开发快速开始">使用</a> ·
+  <a href="#同事skill-衍生项目">效果示例</a> ·
+  <a href="./INSTALL.md">详细安装说明</a> ·
+  <a href="./README_EN.md">English</a>
+</p>
+
 ---
 
 ### `idol-skill`，蒸馏爱豆
