@@ -27,7 +27,7 @@ Agent Skill + CLI 工程：
 
 <p align="center">
   <a href="./INSTALL.md#install-doc">
-    <img src="./assets/promo-idol-skill.svg" alt="idol-skill promo" width="860" />
+    <img src="./assets/promo-idol-skill.svg" alt="idol-skill promo" width="980" />
   </a>
 </p>
 

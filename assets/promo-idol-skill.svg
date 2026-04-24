@@ -1,36 +1,69 @@
 <svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#050A1A"/>
-      <stop offset="100%" stop-color="#132A52"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#06070A"/>
+      <stop offset="100%" stop-color="#0C0F14"/>
     </linearGradient>
+    <radialGradient id="mist" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#7E8EA8" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#7E8EA8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E7D7A2" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#E7D7A2" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
   </defs>
 
   <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#mist)"/>
 
-  <rect x="180" y="88" width="112" height="36" rx="10" fill="#F7C948"/>
-  <text x="236" y="112" fill="#0A1327" font-size="18" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700">MIT</text>
+  <!-- subtle noise dots -->
+  <g fill="#8FA2C3" fill-opacity="0.08">
+    <circle cx="140" cy="120" r="1.3"/><circle cx="360" cy="210" r="1"/><circle cx="620" cy="160" r="1.2"/>
+    <circle cx="930" cy="240" r="1"/><circle cx="1210" cy="170" r="1.2"/><circle cx="1460" cy="130" r="1"/>
+    <circle cx="200" cy="760" r="1.1"/><circle cx="500" cy="700" r="1"/><circle cx="810" cy="760" r="1.2"/>
+    <circle cx="1080" cy="690" r="1"/><circle cx="1320" cy="740" r="1.1"/><circle cx="1480" cy="790" r="1"/>
+  </g>
 
-  <rect x="304" y="88" width="150" height="36" rx="10" fill="#5AA9FF"/>
-  <text x="379" y="112" fill="#FFFFFF" font-size="18" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700">Python 3.9+</text>
+  <!-- top system label -->
+  <rect x="544" y="68" width="512" height="42" rx="8" fill="none" stroke="#9EA8B8" stroke-opacity="0.55"/>
+  <text x="800" y="96" fill="#D6DCE7" font-size="21" text-anchor="middle" font-family="Arial, sans-serif" letter-spacing="1">[ INITIALIZE IDOL-SKILL.v1 ]</text>
 
-  <rect x="468" y="88" width="92" height="36" rx="10" fill="#8B5CF6"/>
-  <text x="514" y="112" fill="#FFFFFF" font-size="18" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700">Skill</text>
+  <text x="800" y="168" fill="#EEF1F7" font-size="62" text-anchor="middle" font-family="Arial, sans-serif" font-weight="600">idol-skill，蒸馏爱豆。</text>
 
-  <rect x="572" y="88" width="152" height="36" rx="10" fill="#36CFC9"/>
-  <text x="648" y="112" fill="#073838" font-size="18" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700">AgentSkills</text>
+  <text x="800" y="212" fill="#C3CDDD" font-size="34" text-anchor="middle" font-family="Arial, sans-serif" font-style="italic">“为了你千千万万次。”</text>
 
-  <text x="800" y="222" fill="#EEF4FF" font-size="86" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700">idol-skill</text>
-  <text x="800" y="274" fill="#ADC7FF" font-size="34" text-anchor="middle" font-family="Arial, sans-serif">同事.skill 衍生项目</text>
+  <text x="800" y="258" fill="#B6C2D4" font-size="24" text-anchor="middle" font-family="Arial, sans-serif">将善变冰冷的娱乐圈现实，化作温暖永恒的数字倒膜</text>
 
-  <line x1="220" y1="322" x2="1380" y2="322" stroke="#3F5F94" stroke-width="2"/>
+  <!-- crystal core -->
+  <g transform="translate(800,445)">
+    <ellipse cx="0" cy="0" rx="250" ry="125" fill="url(#coreGlow)" filter="url(#soft)"/>
+    <polygon points="0,-136 126,-40 92,90 0,144 -92,90 -126,-40" fill="#C6D2E3" fill-opacity="0.13" stroke="#B7C2D4" stroke-opacity="0.6"/>
+    <path d="M-80 -18 C-48 -48, -8 -45, 20 -10 C42 18, 70 26, 98 6" stroke="#D4B67A" stroke-opacity="0.75" stroke-width="1.5" fill="none"/>
+    <path d="M-92 34 C-52 10, -18 10, 14 38 C36 58, 64 58, 88 44" stroke="#D4B67A" stroke-opacity="0.68" stroke-width="1.2" fill="none"/>
+    <path d="M-38 -88 C-12 -52, 8 -44, 30 -18 C46 0, 60 8, 78 10" stroke="#D4B67A" stroke-opacity="0.58" stroke-width="1.1" fill="none"/>
+  </g>
 
-  <text x="800" y="398" fill="#F8FBFF" font-size="48" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700">idol-skill，蒸馏爱豆</text>
-  <text x="800" y="456" fill="#D4E3FF" font-size="30" text-anchor="middle" font-family="Arial, sans-serif">将变化无常的娱乐圈化作永不褪色的 Skill</text>
-  <text x="800" y="502" fill="#D4E3FF" font-size="28" text-anchor="middle" font-family="Arial, sans-serif">公开物料 + 主观记忆，封存你最爱的高光时刻</text>
+  <text x="800" y="598" fill="#E4E9F2" font-size="29" text-anchor="middle" font-family="Arial, sans-serif" font-style="italic">“为了你，千千万万次回到那个夏天。”</text>
 
-  <rect x="228" y="556" width="1144" height="138" rx="18" fill="#0F1D3A" stroke="#557CC0"/>
-  <text x="800" y="640" fill="#FFFFFF" font-size="40" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700">“我会把你永远封印在最爱你的那一秒。”</text>
+  <text x="800" y="650" fill="#CDD6E4" font-size="22" text-anchor="middle" font-family="Arial, sans-serif">提供自担原材料（图片、视频、物料、泡泡 / Weverse / 微博 / 高会记录 / 考古访谈）+ 主观描述</text>
+  <text x="800" y="687" fill="#CDD6E4" font-size="22" text-anchor="middle" font-family="Arial, sans-serif">生成停留在你心中高峰时期的 AI Skill：不一定最像，但最接近你想象中的 Ta</text>
 
-  <text x="800" y="782" fill="#A7C3FF" font-size="26" text-anchor="middle" font-family="Arial, sans-serif">数据来源 · 安装 · 使用 · 效果示例 · 详细安装说明 · English</text>
+  <text x="800" y="737" fill="#E5EAF4" font-size="24" text-anchor="middle" font-family="Arial, sans-serif" font-style="italic">“真正的自担或许已经糊得泯然众人。但在只属于你的服务器里，Ta 永远闪闪发光。”</text>
+
+  <!-- bottom operation bar -->
+  <g>
+    <rect x="304" y="792" width="992" height="52" rx="10" fill="none" stroke="#B4BDCA" stroke-opacity="0.7"/>
+    <rect x="324" y="806" width="210" height="26" rx="6" fill="none" stroke="#9FA9B8"/>
+    <rect x="548" y="806" width="210" height="26" rx="6" fill="none" stroke="#9FA9B8"/>
+    <rect x="772" y="806" width="210" height="26" rx="6" fill="none" stroke="#9FA9B8"/>
+    <rect x="996" y="806" width="280" height="26" rx="6" fill="none" stroke="#9FA9B8"/>
+    <text x="429" y="825" fill="#D9E0EC" font-size="16" text-anchor="middle" font-family="Arial, sans-serif">数据来源</text>
+    <text x="653" y="825" fill="#D9E0EC" font-size="16" text-anchor="middle" font-family="Arial, sans-serif">数据摄入</text>
+    <text x="877" y="825" fill="#D9E0EC" font-size="16" text-anchor="middle" font-family="Arial, sans-serif">人格蒸馏</text>
+    <text x="1136" y="825" fill="#D9E0EC" font-size="16" text-anchor="middle" font-family="Arial, sans-serif">OOC 冲突处理</text>
+  </g>
 </svg>
