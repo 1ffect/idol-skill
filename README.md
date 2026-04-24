@@ -46,7 +46,9 @@ Agent Skill + CLI 工程：
 ### 宣传图
 
 <p align="center">
-  <img src="./assets/promo-idol-skill.svg" alt="idol-skill promo" width="860" />
+  <a href="#demo">
+    <img src="./assets/promo-idol-skill.svg" alt="idol-skill promo" width="860" />
+  </a>
 </p>
 
 <a id="supported-sources"></a>
