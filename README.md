@@ -19,7 +19,7 @@ Agent Skill + CLI 工程：
 <a id="demo"></a>
 
 <div align="center">
-  <img src="./assets/promo-idol-skill.svg" alt="Idol Memory Skill" width="980" />
+  <img src="./assets/promo-idol-skill-v3.svg" alt="Idol Memory Skill" width="980" />
   <br>
   <a href="#data-sources"><img alt="数据来源" src="https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E6%9D%A5%E6%BA%90-1B2438?style=for-the-badge&logoColor=E6ECF5&labelColor=1B2438&color=2A3756" /></a>
   <a href="./INSTALL.md#install-doc"><img alt="安装说明" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E-1B2438?style=for-the-badge&logoColor=E6ECF5&labelColor=1B2438&color=2A3756" /></a>
