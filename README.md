@@ -17,11 +17,11 @@ Agent Skill + CLI 工程：
 <a id="demo"></a>
 
 <div align="center">
-  <a href="./INSTALL.md#install-doc">
+  <a href="#demo">
     <img src="./assets/promo-idol-skill.svg" alt="Idol Memory Skill" width="980" />
   </a>
   <br>
-  <strong><a href="#supported-sources">[ 数据来源 ]</a> ｜ <a href="./INSTALL.md#install-doc">[ 安装说明 ]</a> ｜ <a href="#usage">[ 使用指南 ]</a> ｜ <a href="#demo">[ 效果示例 ]</a> ｜ <a href="./README_EN.md">[ English ]</a></strong>
+  <strong><a href="#data-sources">[ 数据来源 ]</a> ｜ <a href="./INSTALL.md#install-doc">[ 安装说明 ]</a> ｜ <a href="#usage">[ 使用指南 ]</a> ｜ <a href="#demo">[ 效果示例 ]</a> ｜ <a href="./README_EN.md">[ English ]</a></strong>
 </div>
 
 <a id="supported-sources"></a>
@@ -34,6 +34,7 @@ Agent Skill + CLI 工程：
 
 > “最接近你心里的那一版 Ta”。
 
+<a id="data-sources"></a>
 ## 数据来源
 
 - 公开图片与截图（舞台图、活动图、公开社媒图）
