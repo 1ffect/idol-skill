@@ -1,0 +1,38 @@
+{
+  "tiers": [
+    {
+      "id": "public_archive",
+      "name": "公开档案",
+      "unlock_condition": "default",
+      "available_memory_types": ["core", "dynamic"],
+      "description": "公开采访、舞台记忆和基础高光设定。",
+      "simulation": false
+    },
+    {
+      "id": "emotional_archive",
+      "name": "情绪档案",
+      "unlock_condition": "resonance >= 30",
+      "available_memory_types": ["emotional"],
+      "description": "安慰、鼓励和回忆杀相关片段。",
+      "simulation": false
+    },
+    {
+      "id": "parallel_fragments",
+      "name": "平行碎片",
+      "unlock_condition": "memory_glow >= 60",
+      "available_memory_types": ["augmented"],
+      "description": "低权重环境细节与安全补帧。",
+      "simulation": true,
+      "required_label": "Parallel Fragment"
+    },
+    {
+      "id": "if_timeline",
+      "name": "如果那个夏天没有结束",
+      "unlock_condition": "resonance >= 80 or unlock_if_timeline",
+      "available_memory_types": ["core", "dynamic", "emotional", "augmented"],
+      "description": "平行宇宙模式，所有输出必须带 [Simulation] 或 [Parallel Timeline]。",
+      "simulation": true,
+      "manual_token": "unlock_if_timeline"
+    }
+  ]
+}

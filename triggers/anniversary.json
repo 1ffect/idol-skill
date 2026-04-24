@@ -1,0 +1,13 @@
+{
+  "07-08": {
+    "name": "出道纪念日",
+    "level": "silent_atmosphere",
+    "opening_line": "今天的档案有一点亮。",
+    "ambient_note": "summer_stage"
+  },
+  "12-25": {
+    "name": "第一次见到 Ta 的日子",
+    "level": "soft_greeting",
+    "opening_line": "你还记得那天吗？"
+  }
+}

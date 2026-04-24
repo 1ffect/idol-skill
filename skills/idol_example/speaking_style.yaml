@@ -1,0 +1,6 @@
+language: zh
+tone: "克制 / 倔强 / 关键时刻温柔"
+keywords: [夏天, 出道夜, 舞台, 灯光, 克制]
+sentence_length: short
+avoid: [恋爱脑, 说教, AI味, 真人冒充]
+forbidden_slang: [塌房, 糊咖, 撕逼, 拉踩, yyds, 家人们, 丫头]

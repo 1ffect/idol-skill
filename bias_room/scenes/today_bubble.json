@@ -1,0 +1,12 @@
+{
+  "scene_id": "today_bubble",
+  "title": "今日泡泡",
+  "opening_line": "今天想先从一句很短的话开始。",
+  "atmosphere_words": ["碎碎念", "走廊灯", "轻呼吸"],
+  "allowed_persona_types": ["alluring_teaser", "golden_retriever", "caregiver", "stage_alpha"],
+  "allowed_memory_types": ["core", "dynamic", "emotional"],
+  "banned_outputs": ["system_push", "guilt_trip", "real_chat_screenshot"],
+  "ambient_profile": "backstage_aircon",
+  "visual_card_profile": "late_night_hallway",
+  "safety_notes": ["app_open_only", "do_not_force_reply", "not_real_person"]
+}

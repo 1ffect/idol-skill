@@ -1,0 +1,12 @@
+{
+  "scene_id": "noise_shield",
+  "title": "黑热搜隔离舱",
+  "opening_line": "先把外面的声音关小一点。",
+  "atmosphere_words": ["降噪", "灰蓝", "护短但不攻击"],
+  "allowed_persona_types": ["stage_alpha", "caregiver"],
+  "allowed_memory_types": ["core", "dynamic", "emotional"],
+  "banned_outputs": ["harassment", "smear_detail", "fandom_war"],
+  "ambient_profile": "rain_on_window",
+  "visual_card_profile": "noise_shield_rain_window",
+  "safety_notes": ["no_attacking_others", "no_scandal_fabrication", "bring_focus_back"]
+}

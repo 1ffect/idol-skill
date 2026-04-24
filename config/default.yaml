@@ -1,0 +1,55 @@
+app:
+  name: Idol Skill
+  language: zh
+  trigger_enabled: true
+
+retrieval:
+  top_k: 6
+  min_score: 0.45
+  prefer_same_era: true
+
+state:
+  enabled: true
+  decay_enabled: true
+
+generation:
+  max_chars: 180
+  relationship_mode: fan_safe
+  avoid_ai_tone: true
+  default_stance: caregiver
+
+ingestion:
+  require_confirmation: true
+  allow_risky_content: false
+
+augmentation:
+  enabled: true
+  allow_web: false
+  fallback_only: true
+  max_per_session: 3
+  min_turn_gap: 3
+  min_nostalgia: 40
+  max_detail_per_response: 1
+  default_reliability: C
+  require_timebox: true
+  strict_source_filter: true
+  write_to_memory: true
+
+bubble_drop:
+  enabled: true
+  mode: app_open_only
+  allow_system_push: false
+  max_per_day: 3
+  ephemeral_minutes: 10
+  quiet_hours: true
+  quiet_start: "23:30"
+  quiet_end: "08:00"
+  weather_enabled: false
+
+persona:
+  default_type: caregiver
+  stage_persona: stage_alpha
+  private_persona: caregiver
+
+fan:
+  default_type: null

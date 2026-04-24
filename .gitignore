@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.DS_Store
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# runtime outputs
+data/pending/pending_archive.json
+data/pending/archive_preview.md
+data/cleaned/memories.jsonl
+data/vectors/index.json
+data/vectors/chromadb/
+data/archive_log.jsonl
+data/user_state.json
+data/raw/input.txt
+
+# generated or local exports
+skills/*/versions/

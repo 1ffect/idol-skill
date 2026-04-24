@@ -1,0 +1,32 @@
+{
+  "debut_night_blue_light": {
+    "title": "Debut Night",
+    "style": "lo-fi polaroid, blurred blue stage lights, no identifiable face",
+    "visual": "一张模糊的蓝色光斑卡片。",
+    "caption": "那天太亮了。\n亮到后来什么都记不清。"
+  },
+  "after_stage_empty_seats": {
+    "title": "After Stage",
+    "style": "empty venue seats, dim aisle lights, no identifiable face",
+    "visual": "一张空场馆座位的低饱和卡片。",
+    "caption": "散场以后，灯还没全灭。\n好像有人还留在那一刻。"
+  },
+  "practice_room_reflection": {
+    "title": "Practice Room",
+    "style": "practice room floor reflection, fluorescent light, no human face",
+    "visual": "一张练习室地板反光的卡片。",
+    "caption": "地板很冷。\n但光一直稳稳地压在那里。"
+  },
+  "noise_shield_rain_window": {
+    "title": "Noise Shield",
+    "style": "rainy window, blurred blue-grey lights, no face",
+    "visual": "一张雨夜窗户和模糊路灯的卡片。",
+    "caption": "把外面的声音挡住。\n这里只留一点光。"
+  },
+  "late_night_hallway": {
+    "title": "Late Night Bubble",
+    "style": "dim hallway light, soft grain, no identifiable face",
+    "visual": "一张走廊夜灯泛黄的卡片。",
+    "caption": "夜很深。\n但这间房还没完全睡着。"
+  }
+}

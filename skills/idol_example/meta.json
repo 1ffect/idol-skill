@@ -1,0 +1,11 @@
+{
+  "slug": "idol_example",
+  "fictional": true,
+  "display_name": "夏屿",
+  "dominant_era": "2020 年夏天，选秀出道夜",
+  "default_persona_style": "alluring_teaser",
+  "stage_persona": "stage_alpha",
+  "private_persona": "caregiver",
+  "relationship_mode": "fan_safe",
+  "notes": "This example contains no real celebrity data and is safe for local demo use."
+}

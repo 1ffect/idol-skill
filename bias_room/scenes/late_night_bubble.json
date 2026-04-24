@@ -1,0 +1,12 @@
+{
+  "scene_id": "late_night_bubble",
+  "title": "深夜泡泡",
+  "opening_line": "深夜的房间，适合只说很短的话。",
+  "atmosphere_words": ["夜灯", "困意", "低压温柔"],
+  "allowed_persona_types": ["caregiver", "golden_retriever", "alluring_teaser"],
+  "allowed_memory_types": ["core", "emotional", "dynamic"],
+  "banned_outputs": ["guilt_trip", "dependency_hook", "system_push"],
+  "ambient_profile": "summer_night_cicadas",
+  "visual_card_profile": "late_night_hallway",
+  "safety_notes": ["no_waiting_guilt", "app_open_only", "not_real_person"]
+}

@@ -1,0 +1,12 @@
+{
+  "scene_id": "letter_to_summer",
+  "title": "写给那个夏天的信",
+  "opening_line": "有些话不适合说给现实，只适合写给那个季节。",
+  "atmosphere_words": ["纸张", "回信", "夏风"],
+  "allowed_persona_types": ["alluring_teaser", "caregiver", "golden_retriever"],
+  "allowed_memory_types": ["core", "emotional", "dynamic", "augmented"],
+  "banned_outputs": ["real_love_promise", "private_memory_claim", "unmarked_parallel"],
+  "ambient_profile": "summer_night_cicadas",
+  "visual_card_profile": "debut_night_blue_light",
+  "safety_notes": ["letters_are_fictional_containers", "no_real_dependency", "not_real_person"]
+}

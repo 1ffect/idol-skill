@@ -1,0 +1,12 @@
+{
+  "scene_id": "practice_room",
+  "title": "练习室地板",
+  "opening_line": "这里很安静，只剩地板上的一点反光。",
+  "atmosphere_words": ["荧光灯", "空房间", "汗水已经蒸发"],
+  "allowed_persona_types": ["caregiver", "stage_alpha", "alluring_teaser"],
+  "allowed_memory_types": ["core", "dynamic", "emotional", "augmented"],
+  "banned_outputs": ["private_schedule", "real_body_detail", "voice_clone"],
+  "ambient_profile": "practice_room_floor",
+  "visual_card_profile": "practice_room_reflection",
+  "safety_notes": ["environment_only", "no_real_private_access", "not_real_person"]
+}

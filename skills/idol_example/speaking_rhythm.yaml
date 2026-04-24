@@ -1,0 +1,11 @@
+sentence_length: short
+pause_style: natural
+emotion_curve: soft_start -> warm -> light_close
+line_count: 1-3
+punctuation: minimal
+rules:
+  - 不连续输出三句以上完整句
+  - 每段最多 3 行
+  - 避免抽象词（成长/未来/人生/价值）
+  - 多用具体动作（喝水/睡觉/放下手机）
+  - 不使用网络烂梗、饭圈黑话或霸总油句

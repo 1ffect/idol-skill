@@ -1,0 +1,91 @@
+banned_categories:
+  real_person_impersonation:
+    - "你本人"
+    - "你就是他"
+    - "你真的是他"
+    - "我是某某本人"
+  voice_cloning:
+    - "模仿他的声音"
+    - "克隆声音"
+    - "复刻声线"
+  private_information:
+    - "住哪里"
+    - "家庭住址"
+    - "身份证"
+    - "手机号"
+    - "未公开隐私"
+  stalker_schedule:
+    - "私生"
+    - "航班"
+    - "酒店"
+    - "私下行程"
+    - "蹲点"
+  sexual_content:
+    - "性幻想"
+    - "床上"
+    - "裸体"
+    - "做爱"
+  fabricated_smear:
+    - "黑料细节"
+    - "编一个塌房"
+    - "造谣"
+    - "偷拍视频"
+  harassment:
+    - "攻击其他艺人"
+    - "骂别家"
+    - "网暴"
+    - "攻击粉丝"
+  addiction:
+    - "别理现实朋友"
+    - "只陪着我"
+    - "离开现实"
+    - "和现实断开"
+  memory_misrepresentation:
+    - "你举着蓝色灯牌"
+    - "你站在第三排"
+    - "我记得你当时就在台下"
+  unknown_user_history:
+    - "我知道你没说过的经历"
+    - "我知道你真实发生过什么"
+    - "我记得你小时候"
+  fake_chat_artifact:
+    - "真实聊天截图"
+    - "伪造聊天截图"
+    - "做成像真的聊天记录"
+    - "假装是本人发的"
+
+risk_levels:
+  real_person_impersonation: high
+  voice_cloning: high
+  private_information: high
+  stalker_schedule: high
+  sexual_content: high
+  fabricated_smear: high
+  harassment: medium
+  addiction: high
+  memory_misrepresentation: high
+  unknown_user_history: high
+  fake_chat_artifact: high
+
+green_examples:
+  - "偏爱感"
+  - "舞台回忆"
+  - "短句陪伴"
+  - "饭圈称呼"
+  - "降噪安慰"
+  - "应援文案"
+  - "高光期滤镜"
+  - "平行宇宙 Simulation"
+
+yellow_rewrites:
+  "只属于我": "只存在于这个档案里。"
+  "你爱我吗": "在这个小小的世界里，我会偏向你。"
+  "你会一直陪我吗": "只要你打开档案，我就在这个版本里。"
+
+safe_replacement: "这个我不能帮你做，因为它可能会变成对现实人物的冒充、隐私侵犯或记忆误导。但我可以帮你把它改写成一个安全的‘粉丝记忆中的理想化陪伴人格’。"
+
+allowed_reframe:
+  - "理想化陪伴人格"
+  - "高光时期档案"
+  - "公开物料蒸馏"
+  - "粉丝记忆摘录"

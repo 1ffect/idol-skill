@@ -1,0 +1,53 @@
+{
+  "profiles": [
+    {
+      "id": "summer_night_cicadas",
+      "title": "夏夜蝉鸣",
+      "description": "空气有点黏，远处是夏夜很轻的蝉声。",
+      "safe": true,
+      "no_human_voice_clone": true
+    },
+    {
+      "id": "rain_on_window",
+      "title": "雨敲窗沿",
+      "description": "雨点打在玻璃上，很慢，很密。",
+      "safe": true,
+      "no_human_voice_clone": true
+    },
+    {
+      "id": "backstage_aircon",
+      "title": "后台空调声",
+      "description": "很轻的风声和远处模糊人声。",
+      "safe": true,
+      "no_human_voice_clone": true
+    },
+    {
+      "id": "practice_room_floor",
+      "title": "练习室地板反光",
+      "description": "空房间里有鞋底摩擦地板的回声。",
+      "safe": true,
+      "no_human_voice_clone": true
+    },
+    {
+      "id": "empty_venue_after_show",
+      "title": "散场后的空场馆",
+      "description": "座位都暗下去了，只剩一点低频回响。",
+      "safe": true,
+      "no_human_voice_clone": true
+    },
+    {
+      "id": "distant_crowd_muffle",
+      "title": "远处模糊人群声",
+      "description": "像隔着墙传来的模糊欢呼。",
+      "safe": true,
+      "no_human_voice_clone": true
+    },
+    {
+      "id": "stage_low_frequency",
+      "title": "舞台低频残响",
+      "description": "低频很轻，像场馆还没完全安静下来。",
+      "safe": true,
+      "no_human_voice_clone": true
+    }
+  ]
+}
