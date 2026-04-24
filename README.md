@@ -1,5 +1,7 @@
 # idol-skill
 
+> SYNC MARK: README refreshed on 2026-04-24.
+
 > 为了你，千千万万次回到那个夏天。
 
 Agent Skill + CLI 工程：  
