@@ -12,24 +12,17 @@ Agent Skill + CLI 工程：
   <img src="https://img.shields.io/badge/Mode-Local--First-36CFC9?style=flat-square" alt="Local First" />
 </p>
 
-<p align="center">
-  <a href="#supported-sources">数据来源</a> ·
-  <a href="#install">安装</a> ·
-  <a href="#usage">使用</a> ·
-  <a href="#demo">效果示例</a> ·
-  <a href="./INSTALL.md#install-doc">详细安装说明</a> ·
-  <a href="./README_EN.md">English</a>
-</p>
-
 ---
 
 <a id="demo"></a>
 
-<p align="center">
+<div align="center">
   <a href="./INSTALL.md#install-doc">
-    <img src="./assets/promo-idol-skill.svg" alt="idol-skill promo" width="980" />
+    <img src="./assets/promo-idol-skill.svg" alt="Idol Memory Skill" width="980" />
   </a>
-</p>
+  <br>
+  <strong><a href="#supported-sources">[ 数据来源 ]</a> ｜ <a href="./INSTALL.md#install-doc">[ 安装说明 ]</a> ｜ <a href="#usage">[ 使用指南 ]</a> ｜ <a href="#demo">[ 效果示例 ]</a> ｜ <a href="./README_EN.md">[ English ]</a></strong>
+</div>
 
 <a id="supported-sources"></a>
 ### `idol-skill`，蒸馏爱豆
