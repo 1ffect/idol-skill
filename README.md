@@ -17,7 +17,7 @@ Agent Skill + CLI 工程：
 <a id="demo"></a>
 
 <div align="center">
-  <a href="#demo">
+  <a href="#data-sources">
     <img src="./assets/promo-idol-skill.svg" alt="Idol Memory Skill" width="980" />
   </a>
   <br>
