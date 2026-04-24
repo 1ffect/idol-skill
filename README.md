@@ -19,7 +19,11 @@ Agent Skill + CLI 工程：
 <div align="center">
   <img src="./assets/promo-idol-skill.svg" alt="Idol Memory Skill" width="980" />
   <br>
-  <strong><a href="#data-sources">[ 数据来源 ]</a> ｜ <a href="./INSTALL.md#install-doc">[ 安装说明 ]</a> ｜ <a href="#usage">[ 使用指南 ]</a> ｜ <a href="#demo">[ 效果示例 ]</a> ｜ <a href="./README_EN.md">[ English ]</a></strong>
+  <a href="#data-sources"><img alt="数据来源" src="https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E6%9D%A5%E6%BA%90-1B2438?style=for-the-badge&logoColor=E6ECF5&labelColor=1B2438&color=2A3756" /></a>
+  <a href="./INSTALL.md#install-doc"><img alt="安装说明" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E-1B2438?style=for-the-badge&logoColor=E6ECF5&labelColor=1B2438&color=2A3756" /></a>
+  <a href="#usage"><img alt="使用指南" src="https://img.shields.io/badge/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97-1B2438?style=for-the-badge&logoColor=E6ECF5&labelColor=1B2438&color=2A3756" /></a>
+  <a href="#demo"><img alt="效果示例" src="https://img.shields.io/badge/%E6%95%88%E6%9E%9C%E7%A4%BA%E4%BE%8B-1B2438?style=for-the-badge&logoColor=E6ECF5&labelColor=1B2438&color=2A3756" /></a>
+  <a href="./README_EN.md"><img alt="English" src="https://img.shields.io/badge/English-1B2438?style=for-the-badge&logoColor=E6ECF5&labelColor=1B2438&color=2A3756" /></a>
 </div>
 
 <a id="supported-sources"></a>
