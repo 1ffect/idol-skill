@@ -1,3 +1,4 @@
+<a id="install-doc"></a>
 # INSTALL
 
 本文档对齐 `colleague-skill` 的安装体验，主路径使用 `.claude/skills`（兼容 Cursor）。

@@ -13,15 +13,18 @@ Agent Skill + CLI 工程：
 </p>
 
 <p align="center">
-  <a href="#核心能力">数据来源</a> ·
-  <a href="#安装推荐">安装</a> ·
-  <a href="#本地开发快速开始">使用</a> ·
-  <a href="#同事skill-衍生项目">效果示例</a> ·
-  <a href="./INSTALL.md">详细安装说明</a> ·
+  <a href="#data-sources">数据来源</a> ·
+  <a href="#install">安装</a> ·
+  <a href="#usage">使用</a> ·
+  <a href="#demo">效果示例</a> ·
+  <a href="./INSTALL.md#install-doc">详细安装说明</a> ·
   <a href="./README_EN.md">English</a>
 </p>
 
 ---
+
+<a id="demo"></a>
+## 效果示例
 
 ### `idol-skill`，蒸馏爱豆
 
@@ -55,6 +58,7 @@ Agent Skill + CLI 工程：
 - **推荐安装路径**: `.claude/skills/idol-skill`（兼容 Cursor）
 - **运行方式**: 本地 Python CLI
 
+<a id="install"></a>
 ## 安装（推荐）
 
 在你的项目仓库根目录执行：
@@ -69,6 +73,7 @@ git clone https://github.com/1ffect/idol-skill.git .claude/skills/idol-skill
 > 兼容 Cursor：Cursor 会识别 `.claude/skills` 下的技能目录。  
 > 如果你偏好 Cursor 原生目录，也可放到 `.cursor/skills/idol-skill`。
 
+<a id="usage"></a>
 ## 本地开发快速开始
 
 ```bash
@@ -86,6 +91,7 @@ python scripts/bias_room.py
 python scripts/if_timeline.py "写一段平行采访片段"
 ```
 
+<a id="data-sources"></a>
 ## 核心能力
 
 - `Auto Ingestion`: 原始文本清洗、分段、标签化，先进入待确认区
