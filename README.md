@@ -26,6 +26,14 @@ Agent Skill + CLI 工程：
 <a id="demo"></a>
 ## 效果示例
 
+
+<p align="center">
+  <a href="#demo">
+    <img src="./assets/promo-idol-skill.svg" alt="idol-skill promo" width="860" />
+  </a>
+</p>
+
+<a id="supported-sources"></a>
 ### `idol-skill`，蒸馏爱豆
 
 将变化无常的娱乐圈，化作可复现、可回访、可校正的 Skill。  
@@ -43,15 +51,7 @@ Agent Skill + CLI 工程：
 
 > 目标不是“最像真人”，而是“最接近你心里的那一版 Ta”。
 
-### 宣传图
 
-<p align="center">
-  <a href="#demo">
-    <img src="./assets/promo-idol-skill.svg" alt="idol-skill promo" width="860" />
-  </a>
-</p>
-
-<a id="supported-sources"></a>
 ## 数据来源
 
 - 公开图片与截图（舞台图、活动图、公开社媒图）
