@@ -25,9 +25,8 @@ Agent Skill + CLI 工程：
 
 <a id="demo"></a>
 
-
 <p align="center">
-  <a href="#demo">
+  <a href="./INSTALL.md#install-doc">
     <img src="./assets/promo-idol-skill.svg" alt="idol-skill promo" width="860" />
   </a>
 </p>
@@ -49,7 +48,6 @@ Agent Skill + CLI 工程：
 - Ta 不追逐现实八卦，不扩写隐私，不制造依赖，只保留你真正想保存的高光切片
 
 > 目标不是“最像真人”，而是“最接近你心里的那一版 Ta”。
-
 
 ## 数据来源
 
