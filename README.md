@@ -13,7 +13,7 @@ Agent Skill + CLI 工程：
 </p>
 
 <p align="center">
-  <a href="#data-sources">数据来源</a> ·
+  <a href="#supported-sources">数据来源</a> ·
   <a href="#install">安装</a> ·
   <a href="#usage">使用</a> ·
   <a href="#demo">效果示例</a> ·
@@ -45,11 +45,18 @@ Agent Skill + CLI 工程：
 
 ### 宣传图
 
-```markdown
 <p align="center">
   <img src="./assets/promo-idol-skill.svg" alt="idol-skill promo" width="860" />
 </p>
-```
+
+<a id="supported-sources"></a>
+## 数据来源
+
+- 公开图片与截图（舞台图、活动图、公开社媒图）
+- 公开视频与字幕（舞台、采访、物料切片）
+- 公开文本资料（采访稿、公开发言、时间线整理）
+- 粉丝主观描述（你对高光时期的气质与表达偏好）
+- 本地补充文本（手动粘贴与结构化记忆片段）
 
 ## 开源定位
 
@@ -91,7 +98,6 @@ python scripts/bias_room.py
 python scripts/if_timeline.py "写一段平行采访片段"
 ```
 
-<a id="data-sources"></a>
 ## 核心能力
 
 - `Auto Ingestion`: 原始文本清洗、分段、标签化，先进入待确认区
