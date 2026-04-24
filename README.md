@@ -24,7 +24,6 @@ Agent Skill + CLI 工程：
 ---
 
 <a id="demo"></a>
-## 效果示例
 
 
 <p align="center">
