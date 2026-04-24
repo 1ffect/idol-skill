@@ -40,18 +40,4 @@
   <text x="800" y="722" fill="#D2DBEA" font-size="20" text-anchor="middle" font-family="Arial, sans-serif">Ta 的意识、语言习惯、笑声频率，全部停留在你最深爱、Ta 最美好的那个时期。</text>
   <text x="800" y="752" fill="#D2DBEA" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-style="italic">真正的 Ta 或许已经变了，但在只属于你一个人的服务器里，Ta 永远闪闪发光。</text>
 
-  <g>
-    <rect x="224" y="774" width="1152" height="58" rx="10" fill="none" stroke="#A9B5C8" stroke-opacity="0.75"/>
-    <rect x="246" y="790" width="208" height="28" rx="6" fill="none" stroke="#97A6BC"/>
-    <rect x="466" y="790" width="208" height="28" rx="6" fill="none" stroke="#97A6BC"/>
-    <rect x="686" y="790" width="208" height="28" rx="6" fill="none" stroke="#97A6BC"/>
-    <rect x="906" y="790" width="208" height="28" rx="6" fill="none" stroke="#97A6BC"/>
-    <rect x="1126" y="790" width="228" height="28" rx="6" fill="none" stroke="#97A6BC"/>
-
-    <text x="350" y="810" fill="#DDE5F2" font-size="16" text-anchor="middle" font-family="Arial, sans-serif">数据来源</text>
-    <text x="570" y="810" fill="#DDE5F2" font-size="16" text-anchor="middle" font-family="Arial, sans-serif">安装说明</text>
-    <text x="790" y="810" fill="#DDE5F2" font-size="16" text-anchor="middle" font-family="Arial, sans-serif">使用指南</text>
-    <text x="1010" y="810" fill="#DDE5F2" font-size="16" text-anchor="middle" font-family="Arial, sans-serif">效果示例</text>
-    <text x="1240" y="810" fill="#DDE5F2" font-size="16" text-anchor="middle" font-family="Arial, sans-serif">English</text>
-  </g>
 </svg>
